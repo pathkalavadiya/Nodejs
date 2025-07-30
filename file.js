@@ -15,5 +15,22 @@ const fs=require('fs');
 
 // fs.appendFileSync('./output.txt',new Date().getDate().toLocaleString());
 
-fs.cpSync('./data.txt', './data_copy.txt');
-fs.unlinkSync('./data_copy.txt');
+// fs.cpSync('./data.txt', './data_copy.txt');
+// fs.unlinkSync('./data_copy.txt');
+
+// console.log("1");
+// this function is blocking the code execution
+// const result=fs.readFileSync('./data.txt', 'utf-8');
+// console.log(result);
+// console.log("2");'
+
+// console.log("1");
+// console.log("2");
+// fs.readFile('data.txt', 'utf-8', (err,result) => {
+//     console.log(result);
+// })
+// console.log("3");
+// console.log("4");
+
+// const os=require("os");
+// console.log(os.cpus().length);
